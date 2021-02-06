@@ -60,7 +60,7 @@ module Anemone
 
       def has_key?(key)
         rkey = "#{@key_prefix}:pages:#{key.to_s}"
-        @redis.exists(rkey)
+        @redis.exists?(rkey)
       end
 
       def close
