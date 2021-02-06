@@ -8,7 +8,6 @@ spec = Gem::Specification.new do |s|
   s.summary = "Anemone web-spider framework"
   s.executables = %w[anemone]
   s.require_path = "lib"
-  s.has_rdoc = true
   s.rdoc_options << '-m' << 'README.rdoc' << '-t' << 'Anemone'
   s.extra_rdoc_files = ["README.rdoc"]
   s.add_dependency("nokogiri", ">= 1.3.0")
